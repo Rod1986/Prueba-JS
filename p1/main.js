@@ -1,7 +1,9 @@
 var suma = 0;
-do {
-    var ingreso = prompt("ingresa un número");
-    console.log(suma);
-} while (ingreso != suma);
-	
+var fin = "fin";
 
+do {
+	var ingreso = prompt("ingresa un número");
+	suma = parseInt(ingreso) + suma;
+	console.log(suma);
+
+} while (ingreso != fin);
