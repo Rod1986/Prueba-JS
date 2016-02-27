@@ -1,4 +1,3 @@
 $(document).ready(function() {
-	$( "#p1" ).html( "<span>Nuevo parrafo</span>" ); 
+	$("#p1").html("Nuevo parrafo");
 });
-
