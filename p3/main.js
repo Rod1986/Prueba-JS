@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$( "#evento" ).click(function( event ) {
-  	event.stopPropagation();
-	});
+	var fondo = "blue";
+	$("#evento").on('click', function() {
+    	$(this).css({
+    		background: fondo
+    	});
+    });
 });
